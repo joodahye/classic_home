@@ -76,11 +76,21 @@ header .head3{
 .left{
 	position:relative;
 }
-.left img{
+.left video{
+	border:none;
 	width:500px;
-	padding-bottom:50px;
+	padding-bottom:0px;
+	
+}
+.left button{	
+	cursor:pointer;
+	font:10px/180%; 
+	font-family: 'Cormorant Garamond','Gowun Batang', serif; color:rgba(89,89,89,100);
+	background:transparent;
+	border:none;	
 }
 .left h3 {
+	padding-top:50px;
 	padding-bottom:30px;
 	font-size:1.5rem;
 }

@@ -68,9 +68,7 @@ header .head3{
 	padding-right:45px;	
 }
 /*메인*/
-main{
-	border-bottom:1px solid gray;
-}
+
 h3 {
 	font-size:2.8rem;	
 	padding:30px 630px 20px 0;
@@ -158,7 +156,6 @@ main rt{
 	transform:scale(1.2); 
 }
 
-/*질문*/
 hr{
 width:750px; 
 height:1px;
@@ -168,42 +165,20 @@ border:none;
 /*하단*/
 footer{
 	display:flex;
-	max-width:800px;	
-	margin-bottom:200px;
-	margin-top:40px;
+	max-width:750px;
+	position:relative;
 }
 #music{
-	width:450px;	
-	padding-right:50px;	
-	border-right:1px solid gray;
+	width:500px;
+	border:1px solid red;	
 }
 #music h3{
 	padding-left:300px;
 }
 #music div{
-	padding-top:20px;	
-	padding-bottom:20px;
+	padding-top:20px;
 	text-align:center;
 }
-#music h4{
-	padding-top:10px;
-}
-
-#music rt{
-	transform:translateY(30px);
-}
-
-/*질문*/
-.line{
-	color:gray;
-	width:1px;
-	border:none;
-	height:1100px;
-}
 #story{
-	width:300px;	
-	text-align:right;	
-}
-#story h3{
-	padding-right:10px;
+	flex:1;
 }
