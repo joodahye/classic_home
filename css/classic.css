@@ -1,0 +1,152 @@
+@charset "utf-8";
+
+* {margin:0; padding:0; box-sizing:border-box;}
+html, body {
+	width:100%;
+	height:100%;
+	font:10px/180%; 
+	font-family: 'Cormorant Garamond','Gowun Batang', serif; color:rgba(89,89,89,100);
+}
+
+a {
+	text-decoration:none; 
+	color:rgba(89,89,89,100);
+}
+
+img {
+	display:block;	
+}
+
+#layout{	
+	margin:auto;
+	max-width:2000px;	
+	background:#fdeed9;
+	display:grid;
+	place-items:center;
+	position:relative;	
+}
+
+/*상단*/
+header nav{
+	display:flex;
+	list-style:none;
+	padding:50px 70px 10px 70px;	
+	}
+header li{
+	display:block;
+	padding:0 30px 0 30px;
+	font-size:1.1rem;
+}
+
+header #headerline{
+	width:750px;
+	padding:20px;
+	border-top:1px solid gray;
+	border-bottom:1px solid gray;
+	display:flex;
+	justify-content:space-between;	
+}
+header .head1{
+	padding-top:50px;
+	padding-bottom:40px;	
+	padding-right:30px;
+	
+}
+header .head2{
+	
+	padding-top:80px;
+	margin-left:auto;
+	margin-right:auto;
+	padding:80px 100px 30px 100px;
+	border-right:1px solid gray;
+	border-left:1px solid gray;
+}
+header .head3{
+	padding-top:40px;
+	padding-bottom:40px;
+	padding-left:30px;
+	
+}
+#headerdown{
+	display:flex;		
+	margin-top:50px;
+	margin-bottom:100px;
+}
+/*메인 왼쪽*/
+.left{
+	position:relative;
+}
+.left img{
+	width:500px;
+	padding-bottom:50px;
+}
+.left h3 {
+	padding-bottom:30px;
+	font-size:1.5rem;
+}
+.left p{
+	
+	line-height:150%;
+	letter-spacing:-1.1px;
+	padding-bottom:50px;
+}
+#see1{	
+	background:transparent;
+	border:none;	
+	margin-right:420px;
+	position:absolute;
+	left:70%;
+	position:relative;
+}
+#see1 a{
+	font-size:2rem;
+	position:relative;
+}
+#see1 a>span{
+	position:absolute;
+	top:27%;	
+}
+/*메인 오른쪽*/
+.right{
+	border-left:1px solid gray;
+	padding-left:10px;
+}
+.r1{
+	float:right;
+	text-align:right;
+	padding-left:50px;
+	font-size:1.2rem;
+	padding-bottom:50px;
+}
+.r2{
+	
+	line-height:150%;
+}
+/*메인 오른쪽 위*/
+.righttop{
+	margin-bottom:20px;
+}
+.righttop a{
+	font-size:2rem;
+	position:relative;
+}
+.righttop a>span{
+	position:absolute;
+	top:27%;	
+}
+/*메인 오른쪽 아래*/
+.rightdown{
+	display:flex;
+	position:relative;
+}
+.rightdown img{
+	width:80%;
+}
+.rightdown a{
+	position:absolute;
+	top:50%;
+	left:90%;	
+}
+.rightdown a span{
+	font-size:3rem;
+}
